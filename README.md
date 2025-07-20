@@ -1,7 +1,7 @@
 # SmartHomeDashboard
 
 Part of our final project in DevSecOps course at Bar-Ilan
-University ([Main project repository](https://github.com/NadavNV/SmartHomeConfig)). The project allows viewing and
+University ([Main project repository](https://github.com/yarden-ziv/Smarthome-proj-config)). The project allows viewing and
 managing different Smart home devices such as lights, water heaters, or air conditioners.
 
 It is divided into several microservices, and this microservice is the frontend dashboard. This is where the user can
@@ -17,7 +17,7 @@ view and change the various devices.
 
 ## Requirements
 
-- A working [backend instance](https://github.com/NadavNV/SmartHomeBackend).
+- A working [backend instance](https://github.com/yarden-ziv/Smarthome-proj-backend).
 - [node.js](https://nodejs.org/en)
 
 ## Usage
@@ -26,8 +26,8 @@ view and change the various devices.
   - Make sure you have node.js installed and a running backend instance.
   - Clone this repo:
     ```bash
-    git clone https://github.com/NadavNV/SmartHomeDashboard.git
-    cd SmartHomeDashboard
+    git clone https://github.com/yarden-ziv/Smarthome-proj-dashboard
+    cd Smarthome-proj-dashboard
     ```
   - Run `npm install`.
   - Set an environment variable named `VITE_API_URL` whose value is the full address of the backend instance, including
@@ -39,8 +39,8 @@ view and change the various devices.
   - Make sure you have a running backend instance and a running Docker engine.
   - Clone this repo:
     ```bash
-    git clone https://github.com/NadavNV/SmartHomeDashboard.git
-    cd SmartHomeDashboard
+    git clone https://github.com/yarden-ziv/Smarthome-proj-dashboard
+    cd Smarthome-proj-dashboard
     ```
   - Run `docker build -t <name for the image> .`.
   - Run `docker run -p 3001:3001 -e "VITE_API_URL=<full backend address>" <image name>`.
